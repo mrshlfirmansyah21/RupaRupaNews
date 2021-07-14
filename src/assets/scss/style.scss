@@ -1,0 +1,231 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+@import "container_grid";
+
+.home {
+    .hero-wrapper {
+        height: 758px;
+        position: relative;
+
+        .box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 531px;
+            height: 100%;
+            background-color: #F3EDE9;
+        }
+
+        .content-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 6;
+        }
+
+    }
+}
+
+header {
+    background: transparent;
+    nav {
+        font-family: "Open Sans", "sans serif";
+        font-weight: bold;
+        ul {
+            li {
+                margin-left: 1rem;
+                margin-right: 1rem;
+
+                a {
+                    font-family: "Open Sans", "sans serif";
+                    font-weight: bold; 
+                }
+            }
+        };
+    }
+}
+
+.hero {
+    margin-top: 158px;
+    overflow: hidden;
+
+    button {
+        background-color: #F3EDE9;
+        color: #AFA798;
+
+        &:hover {
+            background-color: #e7d1c1;
+            color: #AFA798;
+        }
+    }
+
+    img {
+        height: 435px;
+        width: 652px;
+    }
+}
+
+.hero2 {
+    margin-top: 267px;
+
+    h2 {
+        font-family: "Open Sans", "sans serif";
+        font-weight: bold; 
+    }
+
+    p {
+        font-family: "Open Sans", "sans serif";
+    }
+
+    .service1 {
+        height: 222px;
+        width: 222px;
+    }
+
+    .service2 {
+        height: 222px;
+        width: 222px;
+    }
+
+    .service3 {
+        height: 469px;
+        width: 222px;
+    }
+}
+
+.news {
+    margin-top: 266px;
+    overflow: hidden;
+
+    h2 {
+        font-family: "Open Sans", "sans serif";
+        font-weight: bold; 
+    }
+
+    p {
+        font-family: "Open Sans", "sans serif";
+    }
+
+    .photo1 {
+        height: 350px;
+        width: 513.83px;
+        border-radius: 15px;
+        transition: ease-in-out;
+        transition-duration: 300ms;
+
+        &:hover { 
+            transform: scale(1.01);
+        }
+    }
+
+    button {
+        background-color: #F3EDE9;
+        color: #AFA798;
+
+        &:hover {
+            background-color: #e7d1c1;
+            color: #AFA798;
+        }
+    }
+
+}
+
+
+.variasi {
+    
+    .kotak{
+        position: relative;
+        width: 100%;
+        margin-top: 217px;
+    }
+    .text{
+        position: absolute;
+        z-index: 4;
+        margin-top: 330px;
+
+        span {
+            color: #AFA789;
+        }
+
+        p {
+            font-family: "Open Sans", "sans-serif";
+        }
+
+        h2 {
+            font-family: "Open Sans", "sans-serif";
+            font-weight: bold;
+        }
+
+        .discount {
+            font-family: "Open Sans", "sans-serif";
+            font-weight: bold;
+            color: white;
+        }
+
+        .phone {
+            height: 411px;
+            width: 205px;
+        }
+
+        .apple {
+            height: 55px;
+            margin-top: 4px;
+        }
+    }
+}
+
+.about {
+    margin-top: 131px;
+
+    h3 {
+        font-family: "Open Sans", "sans serif";
+        font-weight: bold; 
+    }
+
+    p {
+        font-family: "Open Sans", "sans serif";
+    }
+}
